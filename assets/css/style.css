@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header style start */
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+nav{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    
+}
+ul>li:hover{
+    background-color: #444;
+    border-bottom: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+/* header style end */
+.t{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn{
+    background-color: #3417db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* footer style */
+footer{
+    position:fixed;
+    bottom: 0; 
+    right: 0; 
+    left: 0;
+    background-color: black;
+    border-top: 1px solid black;
+    padding:2.5rem 2rem;
+    text-align: center;
+    color: rgb(255, 254, 254);
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    z-index: 1000;
+    /* padding-bottom: 9.5rem; */
+ }
+ 
+ .footer span{
+    color: wheat;
+ }
+
+
+ /* LOGIN */
+ form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+/* login end */
